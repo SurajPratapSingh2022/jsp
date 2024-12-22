@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>Arithmetic Operation</h1>
-	<form name="frm" method="post" action="show.jsp">
+	<form name="frm" method="post" action="arithShow.jsp">
 		<table border="1" width="50%">
 			<tr>
 				<td>First No.</td><td><input type="text" name="t1" required></td>
