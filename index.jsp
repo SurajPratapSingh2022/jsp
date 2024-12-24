@@ -4,10 +4,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <h1>Home Page</h1>
-    <a href="./FirstServlet">Click Here to Go to Servlet</a>
+    <h2>Login</h2>
+    <form action="Login" method="post">
+        <input type="text" name="email" placeholder="Enter Email" required /><br><br>
+        <input type="password" name="pass1" placeholder="Enter Password" required /><br><br>
+        <input type="submit" value="Login" />
+    </form>
 </body>
 </html>
